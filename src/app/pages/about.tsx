@@ -15,7 +15,7 @@ const About: React.FC = () => {
     >
       <h1 style={{ fontSize: '36px', color: '#333' }}>Bu Haqida sahifasi</h1>
       <p style={{ fontSize: '18px', color: '#555', lineHeight: '1.6' }}>
-        Next.js haqida o‘rganishni davom eting!
+      Next.js haqida o&apos;rganishni davom eting!
       </p>
       <Link href="/">
         <button
