@@ -26,7 +26,7 @@ const UserItems: React.FC<UserItemsProps> = ({ item }) => {
         <div className="w-full h-64 rounded-lg">
           <img
             src="https://picsum.photos/300/300"
-            alt="Random Person"
+            alt="Random Image"
             className="w-full h-64 object-contain duration-300 hover: cursor-pointer"
             onLoad={() => setLoading(false)}
           />
