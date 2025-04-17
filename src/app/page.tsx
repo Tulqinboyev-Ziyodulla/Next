@@ -9,6 +9,7 @@ export interface UserType {
   lastName: string;
   email: string;
   phone: string;
+  
 }
 
 export default function Page() {
@@ -26,7 +27,9 @@ export default function Page() {
         }))
       );
     });
+
   }, []);
+
 
   return (
     <div className="w-full flex flex-wrap justify-between px-10 p-2 gap-5 mx-auto">
